@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content = "Enqi Du">
+    <meta name = "keywords" content = "Enqi Du, Blog">
+    <meta name = "description" content = "Enqi Du Blog Machine">
+    <link rel="stylesheet" href="style.css">
+    <title>Enqi Du Blog</title>
+</head>
+<body>
+    <header>
+        <p id="name">Enqi Du</p>
+      
+          <div class="container">
+            <div class="menu-icon-wrapper open" onclick="toggleMenu()">
+              <div class="menu-icon-first"></div>
+              <div class="menu-icon-second"></div>
+              <div class="menu-icon-thrid"></div>
+            </div>
+          </div>
+          <div id="myNav" class="overlay">
+            <div class="overlay-content">
+              <a href="landing.html">Home</a>
+              <a href="CV.html">Resume</a>
+              <a href="blog.html">Blogs</a>
+              <a href="portfolioindex.html">Projects</a>
+              <a href="landing.html#landing6"">Contact</a>
+            </div>
+          </div>
+           
+      </header>
+<script src="script.js"></script>
+<main id="blogmain">
+    <div class="blogbox">
+    <div class="blogboxitem">
+     <p class="title">Becoming Nietzsche</p>
+        <div class="content">
+            <p>Fright, and a feverish longing to escape the degeneration of Germans—an acute and kaleidoscopic tribe, tightened the grip on Nietzsche's throat...</p>
+        <button class="popupbutton" onclick="funcpop1()" id="popupbutton1"> ->  Read </button>
+        </div>
+        <div class="interact">
+        <button class="hitlike" id="likeforblog1" type="button" onclick="like1()">♡</button>
+        <button class="seecomment"> 👁️‍🗨️</button>
+    
+
+        </div>
+    </div>
+    <div class="blogboxitem">
+        <p class="title">Facing Sisyphus</p>
+           <div class="content">
+               <p>"Suicide, why?”</p>
+            <p>“I just thought of it, not thinking about it. It wouldn't be blasphemous just
+                reasoning without a conclusion—— I'd say I am intellectually capable and therefore
+                permitted to do so..."</p>
+           <button class="popupbutton" onclick="funcpop2()" id="popupbutton2"> ->  Read </button>
+           </div>
+           <div class="interact">
+           <button class="hitlike">♡</button>
+           <button class="seecomment"> 👁️‍🗨️</button>
+   
+           </div>
+       </div>
+    <div class="popup" id="popup1">
+    
+        <div class="popupbox">
+            <div class="blog">
+            <p>Fright, and a feverish longing to escape the degeneration of Germans—an acute and kaleidoscopic tribe, tightened the grip on Nietzsche's throat. 'Amor Fati! he exclaimed, however, no god is spinning the thread of destiny, you suffer to transcend. Then why is this fragile body weakening my capacity to fight? Because we are aeronauts of the intellect. </p> 
+        
+            <p>I shall bellow at the abyss of uncertainty, but shall the void remain silent to me? O my expansive ego that in eternal pursuit of magnificence exists! Shall I call it Dionysian's evolution to the divinity? Ne, 'la philosophie ne suffit pas au grand nombre. Il lui faut la sainteté.…'</p> 
+        
+            <p>When a mediocre man dies, he shall be solitary. At the moment they turn to dust, there's the crack with the struggle of a life's last gasp. A clichéd imitation of a bygone era's collective imprint, reveling an assured outcome hit is. The ideal for which we live ultimately betrays life, how it resembles Wagner— 'the attitude is the end, drama and even music can never be anything else than means' ! In my heart, there dwells no artist, idol, nor cynic—nor shall it ever, 'I wish to be at any time hereafter only a yea-sayer!'</p>
+            
+            <textarea class="user-comment" placeholder="Enter your comments here..."></textarea>
+            <button type="submit" value="submit" class="submitbutton" onclick="addComment()">submit</button>
+          
+            
+            </div>
+            
+        </div>
+        <div class="close-icon" onclick="closePopup('popup1')">
+            <div class="Close-icon-first"></div>
+            <div class="Close-icon-second"></div>
+          </div>
+    </div>
+       
+    
+    <div class="popup" id="popup2">
+        <div class="popupbox">
+        <div class="blog">
+            <p>My whole work is ironic. ——Albert Camus</p>
+            <p>“Suicide, why?”</p>
+<p>“I just thought of it, not thinking about it. It wouldn't be blasphemous just
+reasoning without a conclusion—— I'd say I am intellectually capable and therefore
+permitted to do so.”</p>
+<p>“One could never be exempted from verdict by confessing his impotence. You
+are already dispelling God for being a determinant soul; might as well acknowledge
+that you simply have nothing beyond reason.”</p>
+<p>“I am PASSIONATE about life and there is nothing rational about that.
+Whenever the bustling rays fade into the seeping dusk, I tremble at the thought that no
+shining shards of moments would ever occur that day.”</p>
+<p>“Unlike you, people are presumed to live and carry on living. Or maybe mortality
+is just too horrifying, that you begin to seek meaning for the end yourself.”</p>
+<p>“Then I have to refute that it is never the finite that bothers me, but when to
+    terminate. The anxiety comes from the urgent quest: why can't now be the moment?
+All the possibilities the future unfolds shall redefine my being, yet how's that relevant
+to the present me?”</p>
+<p>“To commit suicide is to deny. You'd be morally accused if you are indifferent
+about saving your loved ones from death. How could one not be expecting anything to
+happen tomorrow!”</p>
+<p>“Unless there's the weariness of excessive repetition, suffering from detachment
+to the settings. Not once, in all those mock-heroic deeds, did I find even a whisper of
+contentment in my trivial, fleeting existence.”</p>
+<p>“You are finally being honest about how greedy you are.”</p>
+<p>“Shouldn't I be? Time is the eternal enemy of one who wishes to exhaust what is
+given. If no judgement is ever made, the pursuit of the experience quantity is all that is
+legitimate.”</p>
+<p>“Then what if the world overwhelms you with inhuman denseness, what if your
+past collapses into the rupture of anonymity, will you be unjustified in being the
+subject?”</p>
+<p>“I feel pity for your lack of courage in improvement. When I make my decision,
+I become a part of this cosmos, expanding to the fullest as I learn to love. We were
+consciously abandoned by the future. In that sense, I shall always be a stranger to
+myself.”</p>
+<p>“But would the exploited potential be intrinsic? Is that harmony after all? How
+can you be sure that there is even a message to follow? The execution never comes, but
+you are still waiting till your demise. Be friends with that stranger.”</p>
+<p>“...It is a perilous assumption. A philosophical deduction speaks for all human
+beings and you are responsible for that.”</p>
+<p>“'Man is the only creature who refuses to be what he is.' Yet you objected to
+absurdity and killed yourself ontologically. Your hope for betterment strangles the
+freedom to exit the stage in grace. Think about the beautiful sun that is going to rise.
+Now the lucidity is nothing but tournament, isn't it?”</p>
+<p>“I am NOT committing suicide, OK? There is still a dog for me to watch over,
+no other reasons are needed for my happiness. Why do you keep asking me all these?
+WHO ARE YOU anyway?”</p>
+<p>“I am Camus.”</p>
+<p>“Camus never says things that way; he tells people how to live.</p>
+ <p> “Of course, he doesn't. But YOU do.”</p>
+
+            
+            <textarea class="user-comment" placeholder="Enter your comments here..."></textarea>
+            <button  class="submitbutton" onclick="addComment()">submit</button>
+            
+        </div>
+        </div>
+        <div class="close-icon" onclick="closePopup('popup2')">
+            <div class="Close-icon-first"></div>
+            <div class="Close-icon-second"></div>
+          </div>
+    </div>
+  
+
+    </div>
+<!--
+    <div class="blogbox" id="blogbox2">
+        <div class="blogboxitem">
+         <p class="title">宿醉反应（节选）</p>
+            <div class="content">
+                <p>Fright, and a feverish longing to escape the degeneration of Germans—an acute and kaleidoscopic tribe, tightened the grip on Nietzsche's throat...</p>
+            <button class="popupbutton" onclick="funcpop3()" id="popupbutton3"> ->  Read </button>
+            </div>
+            <div class="interact">
+            <button class="hitlike">♡</button>
+            <button class="seecomment"> 👁️‍🗨️</button>
+    
+            </div>
+        </div>
+        <div class="blogboxitem">
+            <p class="title">2021金秋读书节启动仪式发言</p>
+               <div class="content">
+                   <p>"红尘滚滚，读书是门槛最低的高贵，一室之内，瀚海苍穹、沧桑百态。读书足以怡情，足以博彩，足以长才，足以使人开茅塞，除鄙见，得新知, 养性灵。</p>
+               <button class="popupbutton" onclick="funcpop4()" id="popupbutton4"> ->  Read </button>
+               </div>
+               <div class="interact">
+               <button class="hitlike">♡</button>
+               <button class="seecomment"> 👁️‍🗨️</button>
+       
+               </div>
+           </div>
+        <div class="popup" id="popup3">
+            <div class="popupbox">
+            <div class="blog">
+                <p>Fright, and a feverish longing to escape the degeneration of Germans—an acute and kaleidoscopic tribe, tightened the grip on Nietzsche's throat. 'Amor Fati! he exclaimed, however, no god is spinning the thread of destiny, you suffer to transcend. Then why is this fragile body weakening my capacity to fight? Because we are aeronauts of the intellect. </p> 
+            
+                <p>I shall bellow at the abyss of uncertainty, but shall the void remain silent to me? O my expansive ego that in eternal pursuit of magnificence exists! Shall I call it Dionysian's evolution to the divinity? Ne, 'la philosophie ne suffit pas au grand nombre. Il lui faut la sainteté.…'</p> 
+            
+                <p>When a mediocre man dies, he shall be solitary. At the moment they turn to dust, there's the crack with the struggle of a life's last gasp. A clichéd imitation of a bygone era's collective imprint, reveling an assured outcome hit is. The ideal for which we live ultimately betrays life, how it resembles Wagner— 'the attitude is the end, drama and even music can never be anything else than means' ! In my heart, there dwells no artist, idol, nor cynic—nor shall it ever, 'I wish to be at any time hereafter only a yea-sayer!'</p>
+                
+                <textarea class="user-comment" placeholder="Enter your comments here..."></textarea>
+                <button  class="submitbutton" onclick="addComment()">submit</button>
+                
+            </div>
+            </div>
+        </div>
+        <div class="popup" id="popup4">
+            <div class="popupbox">
+            <div class="blog">
+                <p>今天我演讲的主题是学子常读书、读书应有方。</p>
+<p>红尘滚滚，读书是门槛最低的高贵，一室之内，瀚海苍穹、沧桑百态。读书足以怡情，足以博彩，足以长才，足以使人开茅塞，除鄙见，得新知, 养性灵。而阅读依法方显读书功用。</p>
+<p>陆九渊曾说，读书切戒在慌忙,涵泳功夫兴味长，未晓莫妨权放过,切身须要急思量。读书应沉潜往复、含英咀华。阅读可以是在偶见一两金句时拍案而起、惊异赞叹，与同学揣摩画龙点睛之笔的深隽之义；也可以是个人的修行，在吹灭读书灯一身都是月之时，阖上书页，将自己与窗外陌生而亲切的大千世界融为一体，沉吟许久、感慨万千。阅读有时就是顺藤摸瓜剥茧抽丝，从理解到分析，从评价到改良，写的是什么、怎么写的、写的是否正确，都值得我们的思考。</p>
+<p>书海无涯，我们需博观而约取，厚积而薄发。庄子有一小句“夏虫不可语冰”，为了达到自我境界的提高，我们应对多领域进行广泛涉猎。书中横卧着整个过去的灵魂，世间万象，皆可藏之于书。所谓人生有三见，见自己、见天地、见众生，在读书方面同样适用。在读书的时候，我们需要有意识的思考其对个人的反应，为我们的将来生活提供了怎样的指导思想；同时我们也应了解世界一些基本的运作机制，以一种全新的格局来与自然进行一种平衡；而再进一步，是走出自身体悟的局限，体察书中描写的人间百态悲欢离合，以慈悲之心响应社会之召。借用一句拉丁名谚，真理使你自由，读书就是这样一个寻找真理的过程。可畏的不是卷轶浩繁，而是你甚至不愿走进一个更广博的天地。</p>
+<p>作为风华正茂的高中生，我们不仅需要主动探索人格发展，还应将自我成长顺应时代发展、响应国家需要，读有益于身心健康的优秀作品，传习经典、关注现实，提升审美趣味、思维深度、学术水平。阅读不仅是被动吸收更需要主动输出，将书本内容与自身的直接经验相联系，通过构建自己的知识网络、思维体系达成从模仿到独立，可以依据情形灵活调整，以为特定目的服务。我呼吁广大同学们积极响应阅读号召，参与读书节、读书会等校内外活动。从读书中我们采撷古今大师之遗思，以为今日之用。</p>
+<p>同学们，若你希望看到一个更加平和高雅的自己，不妨用阅读来修身养性；若你希望得出生命内涵的可能意义，不妨用读书来化解彷徨；若你希望了解意志行为的伦理和规范，不妨用阅读来探求真理。即使我们只是朝生暮死的虫豸，也应记住每一个不曾起舞的日子，都是对生命的辜负。正是金秋好时节，愿你偷得浮生半日闲，百战归来再读书！</p>
+
+
+                
+                <textarea class="user-comment" placeholder="Enter your comments here..."></textarea>
+                <button  class="submitbutton" onclick="addComment()">submit</button>
+                
+            </div>
+            </div>
+        </div>
+    
+        </div>
+    
+
+
+    
+    </main>
+    </body>
+    </html>   
